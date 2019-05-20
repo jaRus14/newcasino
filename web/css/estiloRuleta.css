@@ -1,0 +1,162 @@
+*{
+	padding: 0px;
+	margin: 0px;
+    text-align: center;
+
+}
+.vara {
+	height: 70px;
+	width: 10px;
+	background-color: #aaa;
+	margin: auto;
+	position: relative;
+	top: 10px;
+	border-radius: 0px 0px 8px 8px;
+	border: 1px solid #000;
+	border-top: 5px solid #000;
+    z-index: 1000;
+    background-color: black;
+}
+
+
+#conte{
+    background-color: green;
+    padding-bottom: 30px;
+}
+img {
+	z-index: 100;
+	transition: all 5s
+}
+
+#dinero {
+	position: absolute;
+	font-size: 40px;
+    padding: 10px;
+    color: white;
+    border:1px solid black;
+    background-color: blue;
+    width: 300px;
+}
+
+#tablero{
+    margin-top: 50px;
+    border:10px solid black;
+    position: relative;
+    background-color: #FF0040;
+}
+
+#a{
+    position: absolute;
+    left: 10px;
+    top:10px;
+}
+
+#bola{
+
+    width: 5px;
+    height: 5px;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    background: white;
+    margin: auto;
+	position: relative;
+    top: 10px;
+	border: 1px solid #000;
+	border-top: 5px solid #000;
+	z-index: 1000;
+
+
+}
+
+#fichatablero{
+    position:absolute;
+    border: 1px solid black;
+    width : 300px;
+    height: 100px;
+    top:5%;
+}
+
+#boton{
+    width:50px;
+    height: 50px;
+    background-color:yellow;
+}
+
+label{
+    color: black;
+    margin-right: 5px;
+}
+#opciones{
+    position:absolute;
+    border: 2px solid black; 
+    width : 250px;
+    left: 73%;
+    bottom: 13%;
+    background-color: white;
+    padding: 20px;
+    
+}
+#cantidadFichas{
+
+    position:absolute;
+    border: 1px solid black;
+    background-color: white;
+    color: black;
+    width : 200px;
+    height: 200px;
+    bottom: 11%;
+    left: 8.5%;
+    padding-top:30px;
+}
+
+select{
+    margin-top: 10px;
+}
+#ficha10,#ficha20,#ficha50,#ficha100,#ficha200{
+    width: 60px;
+    height: 50px;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    color: black;
+    margin-top:25px;
+    padding-top:20px;
+}
+
+#ficha10{
+       
+        background: #5cb85c;
+        margin-left:30px;     
+}
+#ficha20{
+
+    background: #2EFEF7;
+    margin-left:30px; 
+}
+#ficha50{
+
+    background: #0000FF;
+    margin-left:30px;
+}
+#ficha100{
+
+    background: #BF00FF;
+    margin-left:30px;
+}
+
+#ficha200{
+
+    background: #FF0040;
+    margin-left:30px;
+
+}
+.fichas{
+    display:inline-block;
+    margin-top:50px;
+}
+
+#pie{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 5px;
+}

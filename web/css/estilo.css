@@ -1,0 +1,227 @@
+body {
+  /*padding-left: 11em;*/
+  font-family: Georgia, "Times New Roman",
+        Times, serif;
+        background-image: url("../web/img/imagenesHome/fondo.jpg");
+
+  text-align: center;
+}
+/*
+#contenido {
+  //background-color: green;
+}
+*/
+
+.cucu {
+	color: black;
+	text-decoration: underline overline;
+}
+
+
+h1{
+  color: black;
+  text-decoration: underline overline;
+  
+}
+
+h2 {
+	color: black;
+  text-decoration: underline overline;
+  background-color: #FF0040;
+}
+
+h3 {
+	text-decoration: underline;
+}
+p {
+  color: black;
+
+}
+
+.blan {
+  background-color: black;
+ 
+}
+
+.iz {
+	display: flex;
+  justify-content: left;
+  width: 100%;
+
+}
+
+
+.centrar {
+  text-align: center;
+ 
+}
+
+.decorarCabecera {
+  background-color: aquamarine;
+}
+
+.linea {
+  display: inline-block;
+}
+
+/* a */
+.but:link, .but:visited {
+  background-color: #f44336;
+  color: white;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.but:hover, .but:active {
+  background-color: red;
+}
+
+.com{
+  color: red;
+}
+/* Barra de navegación */
+
+.container{
+  width: 100%;
+}
+
+#menu ul{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  
+}
+#menu ul li{
+  display: inline-block;
+}
+#menu ul li a{
+  color: white;
+  display: block;
+  padding: 20px 20px;
+  text-decoration: none;
+  border-radius: 15px;
+}
+#menu ul li a:hover{
+  background-color: gold;
+  color:black;
+}
+
+
+.car {
+  margin-right:25px;
+  margin-bottom: 5px;
+  margin-top: 5px;
+
+}
+/* REGISTRO */
+
+
+/* FIN REGISTRO */
+
+
+
+/* inicio tabla */
+table {
+	border-collapse: collapse;
+	width: 60%;
+	//margin-left: 20%;
+}
+
+th, td {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+td:hover {background-color: white;}
+th:hover {background-color: white;}
+tr:hover {background-color: white;}
+
+/* fin tabla */
+
+
+/* input submit */
+
+.inpu {
+
+  background: #0066A2;
+  
+  color: white;
+  
+  border-style: outset;
+  
+  border-color: #0066A2;
+  
+  height: 50px;
+  
+  width: 100px;
+  
+  font: bold 15px arial, sans-serif;
+  
+  text-shadow:none;
+
+  margin-top: 15px;
+  
+  }
+
+  .inpu:hover {
+    background-color: blue;
+  }
+
+  input{
+    margin-bottom: 10px;
+  }
+  /**/
+
+  label {
+    color: black;
+    font-weight: bold;
+    margin-right: 5px;
+   }
+
+
+   /* editar perfil*/
+
+   #editarPerfil {
+    text-align: center;
+    background-color: red;
+    display: inline-block;
+    cursor: pointer;
+    color: #fff;
+    margin-left: 20px;
+    margin-top: -80px;
+    width: 180px;
+    height: 60px;
+    font-size: 24px;
+    line-height: 60px;
+    border: 0;
+    border-radius: 5px;
+    box-shadow: 0 10px 20px 0 rgba(0,0,0,.19);
+    margin-bottom: 10px;
+}
+
+#volverPerfil {
+  text-align: center;
+  background-color: red;
+  display: inline-block;
+  cursor: pointer;
+  color:black;
+  margin-top: -100px;
+  margin-left: 700px;
+  width: 180px;
+  height: 60px;
+  font-size: 24px;
+  line-height: 60px;
+  border: 0;
+  border-radius: 5px;
+  box-shadow: 0 10px 20px 0 rgba(0,0,0,.19);
+  margin-bottom: 10px;
+}
+
+#pie{
+  background-color: white;
+  margin-top: 20px;
+}
