@@ -2,11 +2,9 @@
 
 
 <?php ob_start()?>
-	
 
+	<h2>CESTA</h2>
 	<br>
-	<h1 class="centrar">CESTA</h1>
-
 	<div id="cont">
 	
 	<?php
@@ -24,8 +22,8 @@
 			echo('<div>CANTIDAD: ' . $cantidad . '</sup></div><br/>
 					<table>
 						<tr>
+							<th></th>
 							<th>Ficha</th>
-							<th>Nombre</th>
 							<th>Precio</th>
 							<th>Eliminar de la cesta</th>
 						</tr>');
@@ -53,8 +51,8 @@
 	     		}
 		}
 	?>
-<br/>
-<br/>
+
+
 	</div>
 
 <?php $contenido = ob_get_clean() ?>

@@ -13,6 +13,7 @@
 		<div>
 			Nombre: <?php echo $params['perfil']['nombre']?> <br/>
 			Apellido: <?php echo $params['perfil']['apellido']?> <br/>
+			Nickname: <?php echo $params['perfil']['nickname']?> <br/>
 			Email: <?php echo $params['perfil']['correo']?> <br/>
 			Fichas: <?php echo $params['perfil']['fichas']?> <br/>
 		</div>
@@ -21,19 +22,17 @@
 		<div id="editarPerfil" class="btn btn-primary">EDITAR</div>
 		<br/><br/>
 	</div>
-
+<br>
 	<div id="editar_perfil" style="display:none">
 		<form action="index.php?ctl=editarUsuario" method="POST" enctype="multipart/form-data">
-		<div class="form-row align-items-center">
+		<div class="form-row align-items-center row justify-content-md-center">
 		<div class="col-auto">
 			<?php echo '<input class="form-control mb-3" type="hidden" name="id" value="'.$params['perfil']['id'].'">'?>
 			<label>Nombre:</label> <?php echo "<input class='form-control mb-3'type='text' name='nombre' value='".$params['perfil']['nombre']."'/>" ?> 
-			<label>Apellido:</label> <?php echo "<input class='form-control mb-3' type='text' name='apellido' value='".$params['perfil']['apellido']."'/>"?> 
+			<label>Apellido:</label> <?php echo "<input class='form-control mb-3' type='text' name='apellido' value='".$params['perfil']['apellido']."'/>"?>
+			<label>Nickname:</label> <?php echo "<input class='form-control mb-3' type='text' name='nickname' value='".$params['perfil']['nickname']."'/>"?>
 			<label>Email:</label> <?php echo "<input class='form-control mb-3' type='text' name='correo' value='".$params['perfil']['correo']."'/>"?> 
-			
 			<label>Contraseña:</label> <input class='form-control mb-3' type='password' name='contrasenna' />
-			
-			
 			
 			</div>
 				</div>

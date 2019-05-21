@@ -90,7 +90,7 @@ echo "<div id='disponible'>" . $usuario['fichas'] . "</div>";
 			<img id="caballo" src="../web/img/imagenesTragaperras/caballo.jpg"/>
 
 			<section id="mensaje">
-				BIENVENIDO - REALIZA TU APUESTA
+				BIENVENIDO 
 			</section>
 			
 			<section id="cajas">
@@ -108,13 +108,13 @@ echo "<div id='disponible'>" . $usuario['fichas'] . "</div>";
 					
 				</div>
 
-				<section id="gira" onclick="juego()">JUGAR</section>
+				<section class="bg-danger rounded-pill" id="gira" onclick="juego()">JUGAR</section>
 			</div>
 				
 		</div>
 
 </div>
-<br>
+
 
 	<script type="text/javascript" src="../web/js/scriptTraga.js"></script>
 

@@ -19,7 +19,7 @@
       <img src="../web/img/imagenesHome/sa.jpg" class="d-block w-100" alt="...">
     </div>
     <div class="carousel-item">
-      <img src="../web/img/imagenesHome/casino2.jpeg" class="d-block w-100" alt="...">
+      <img src="../web/img/imagenesHome/casino2.jpg" class="d-block w-100" alt="...">
     </div>
     <div class="carousel-item">
       <img src="../web/img/imagenesHome/bingo.jpg" class="d-block w-100" alt="...">
@@ -33,6 +33,15 @@
     <span class="carousel-control-next-icon" aria-hidden="true"></span>
     <span class="sr-only">Next</span>
   </a>
+</div>
+
+<div class="card" style="width: 18rem;">
+  <img src="../web/img/imagenesHome/regif.jpg" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">REGISTRO GRATIS</h5>
+    <p class="card-text">Registrate ahora y consigue 100 fichas gratis para jugar.</p>
+    <a href="index.php?ctl=registro" class="btn btn-primary">Quiero registrarme</a>
+  </div>
 </div>
 
 <!--tabla winners-->

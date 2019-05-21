@@ -1,10 +1,10 @@
 body {
   /*padding-left: 11em;*/
-  font-family: Georgia, "Times New Roman",
-        Times, serif;
-        background-image: url("../web/img/imagenesHome/fondo.jpg");
-
+  font-family: Georgia, "Times New Roman", Times, serif;
   text-align: center;
+
+        background-image: url("../web/img/imagenesHome/fondo2.jpg");
+       //background-color: #FF0040;
 }
 /*
 #contenido {
@@ -28,6 +28,7 @@ h2 {
 	color: black;
   text-decoration: underline overline;
   background-color: #FF0040;
+  padding:7px;
 }
 
 h3 {

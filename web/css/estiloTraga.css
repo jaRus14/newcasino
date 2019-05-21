@@ -1,18 +1,15 @@
 
 body{
-
-	
 	margin: 0px;
 	text-align: center;
 	
 	
 }
 
-
-
 #contenedor{
-	height:750px;
-	width: 550px;
+	
+	width: 50%;
+	height:670px;
 	background-color: black;
 	padding-top: 20px;
 	padding-bottom: 20px;
@@ -67,10 +64,10 @@ p{
 	height:350px;
 	width:100%;
 	position:relative;
-	padding-top:10%;
+	padding-top:5%;
 }
 #apuesta{
-	height:100px;
+	height:110px;
 	width:50%;
 	margin-top: 10px;
 	margin-left: 25%;
@@ -88,7 +85,7 @@ p{
 	width: 50%;
 	background-color: pink;
 	color:red;
-	margin-bottom: 5px;
+	margin-bottom: 2px;
 	text-align: center;
 	position:absolute;
 	bottom:10%;
@@ -108,9 +105,9 @@ p{
 
 section#gira{
 	width: 60%;
-	margin-top:75px;
+	margin-top:5%;
 	padding-bottom: 25px;
-	padding-top:25px;
+	padding-top:5%;
 	text-align: center;
 	background-color: red;
 	color:white;
@@ -123,6 +120,7 @@ section#gira{
 
 #gira{
 	margin-left: 20%;
+	
 }
 
 
@@ -155,8 +153,13 @@ section#gira{
 	}
 
 	#contenedor{
-		margin-top:10%;
-		
+		margin-top:2%;
+		width:80%;
+		height:980px;
+	}
+
+	.fichas{
+		margin-top: 2%;
 	}
 	
   }
