@@ -3,9 +3,7 @@
 ?>
 		
 <?php ob_start() ?>
-
-<br/>
-<h1 class="centrar">CONTACTA CON NOSOTROS</h1>
+<h2>CONTACTA CON NOSOTROS</h2>
 
 <div class="centrar">
 
@@ -15,7 +13,8 @@
 
 <div>	
 
-	<div class="centrar form-row align-items-center">
+	<div class="form-row align-items-center row justify-content-md-center">
+	<div class="col-md-auto">
 		<form>
 			<div class="form-group">
 				<label for="exampleInputEmail1">Nombre</label>
@@ -39,13 +38,15 @@
 			<button type="submit" class="btn btn-primary">Enviar</button>
 		</form>
 	</div>
+	</div>
 </div>
 
 <?php else: ?>
 
 <div>	
 
-	<div class="centrar form-row align-items-center">
+	<div class="form-row align-items-center row justify-content-md-center">
+	<div class="col-md-auto">
 		<form>
 			<div class="form-group">
 				<label for="exampleInputEmail1">Tu mensaje</label>
@@ -56,10 +57,11 @@
 			<button type="submit" class="btn btn-primary">Enviar</button>
 		</form>
 	</div>
+	</div>
 </div>
 
 <?php endif; ?>
-<br/>
+
 
 
 

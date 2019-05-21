@@ -26,7 +26,7 @@ let mensaje = document.getElementById("mensaje")
 
 function sumarPuntos(p){
 	dinero += p;
-    document.querySelector("#disponible").innerHTML = "Fichas: " + dinero;
+    document.querySelector("#disponible").innerHTML = "Fichas " + dinero;
 
 }
 
