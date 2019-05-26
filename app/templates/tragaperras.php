@@ -3,7 +3,7 @@
  ?>
 
 <?php ob_start() ?>
-
+<!--
 
 <table>
 
@@ -51,7 +51,7 @@
 <?php echo $prueba['mensaje'] ?>
 
 
-
+-->
 
 
 <head>

@@ -14,6 +14,11 @@ body {
 }
 */
 
+.size{
+  width: 100%;
+  height: 250px;
+}
+
 .cucu {
 	color: black;
 	text-decoration: underline overline;
@@ -83,10 +88,10 @@ p {
 /* Barra de navegación */
 
 .container{
+  margin-top: -2%;
   padding: 0px;
   background-color:white;
-  border-bottom: 5px solid black;
-  margin-bottom: 1%;
+  
   
 }
 
@@ -115,6 +120,7 @@ p {
 iframe{
   width: 74%;
   height:515px;
+  border-bottom: 5px solid black;
 
 }
 .card-deck{
@@ -229,3 +235,4 @@ th, td {
 }
 
 #titulo{background-color: white;}
+

@@ -17,7 +17,12 @@
 	<div id="fichas">Fichas: 500</div>
 	<div class="vara"></div>
 	<img src="../web/img/imagenesRuleta/imagen.png" id="ruleta">
-</div>
+</div><br>
+
+	<div id="apuesta">
+		<P>TU APUESTA</P>
+		<input class="fichas" type="number" min="0" max="20" value="0"> 
+	</div>
 
 <script src="../web/js/scriptRuleta.js"></script>
 
