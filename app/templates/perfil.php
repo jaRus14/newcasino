@@ -37,9 +37,9 @@
 			</div>
 				</div>
 
-			<input class="inpu cbtn btn-primary" type="submit" id="but_guardar_per" value="Guardar" /><br><br>
+			<input class="inpu cbtn btn-primary" style="background-color:black" type="submit" id="but_guardar_per" value="Guardar" /><br><br>
 
-			<input class="cbtn btn-primary bg-warning border border-warning" type="submit" id="volverPerfil" value="VOLVER"/>
+			<input class="cbtn btn-primary" type="submit" id="volverPerfil" value="VOLVER"/>
 		</form>
 	</div>
 

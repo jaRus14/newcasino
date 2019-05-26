@@ -192,8 +192,8 @@ class Controller {
         require __DIR__ . '/templates/tragaperras.php';
     }
 
-    public function bingo() {
-        require __DIR__ . '/templates/bingo.php';
+    public function blackjack() {
+        require __DIR__ . '/templates/blackjack.php';
     }
 
     public function ruleta() {

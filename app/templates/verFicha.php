@@ -29,7 +29,7 @@
 	                }
 	            }	
                 if($add){
-                    echo('<input class="inpu btn-primary" type="submit" value="Añadir">');
+                    echo('<input class="inpu btn-primary but" type="submit" value="Añadir">');
                } else{
                     echo('<input class="inpu btn-primary" type="submit" value="Cesta">');
                }

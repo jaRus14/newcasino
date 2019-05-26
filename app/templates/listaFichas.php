@@ -3,12 +3,12 @@
 ?>
 
 <?php ob_start() ?>
-<br>
+<h2>COMPRAR FICHAS</h2>
     <?php foreach ($params['fichas'] as $ficha) :?>
      
         <td><a class="but" href="index.php?ctl=ver&id=<?php echo $ficha['id']?>"><?php echo $ficha['nombre'] ?></a></td>
         <td><?php echo $ficha['precio']. '€'?></td>
-        <td><img src='<?php echo $ficha['imagen']?>' width="200px"/></td>
+        <td><img src='<?php echo $ficha['imagen']?>' width="300px"/></td>
 
     <?php endforeach; ?>
     

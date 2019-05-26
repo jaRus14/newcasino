@@ -1,47 +1,26 @@
 ﻿
-<h1>NEW CASINO, NEW WORLD!</h1>
-
+<!--
+<div id="titulo">
+<h1>NEW CASINO, NEW WORLD!</h1>-->
+</div>
 <?php
     @session_start();
  ?>
 <br>
 <?php ob_start() ?>
 
-<!--galeria imagenes-->
-<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-  <ol class="carousel-indicators">
-    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-  </ol>
-  <div class="carousel-inner">
-    <div class="carousel-item active">
-      <img src="../web/img/imagenesHome/sa.jpg" class="d-block w-100" alt="...">
-    </div>
-    <div class="carousel-item">
-      <img src="../web/img/imagenesHome/casino2.jpg" class="d-block w-100" alt="...">
-    </div>
-    <div class="carousel-item">
-      <img src="../web/img/imagenesHome/bingo.jpg" class="d-block w-100" alt="...">
-    </div>
-  </div>
-  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="sr-only">Previous</span>
-  </a>
-  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="sr-only">Next</span>
-  </a>
-</div>
+<!--multimedia y registro-->
 
-<div class="card" style="width: 18rem;">
-  <img src="../web/img/imagenesHome/regif.jpg" class="card-img-top" alt="...">
-  <div class="card-body">
-    <h5 class="card-title">REGISTRO GRATIS</h5>
-    <p class="card-text">Registrate ahora y consigue 100 fichas gratis para jugar.</p>
-    <a href="index.php?ctl=registro" class="btn btn-primary">Quiero registrarme</a>
+<div id="con">
+  <div class="card" style="width: 18em;" >
+    <img src="../web/img/imagenesHome/regif.jpg" class="card-img-top" alt="...">
+    <div class="card-body" style="background-color: white; height: 210px">
+      <h5 class="card-title">REGISTRO GRATIS</h5>
+      <p class="card-text">Registrate ahora y consigue 100 fichas gratis para jugar.</p>
+      <a href="index.php?ctl=registro" class="btn btn-primary">Quiero registrarme</a>
+    </div>
   </div>
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/V32NLMksvMw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
 <!--tabla winners-->
@@ -76,6 +55,37 @@
     </tr>
   </body>
 </table>
+
+<!--galeria imagenes-->
+<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+  <ol class="carousel-indicators">
+    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+  </ol>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="../web/img/imagenesHome/fondo2.jpg" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="../web/img/imagenesHome/bingo.jpg" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="../web/img/imagenesHome/fondo2.jpg" class="d-block w-100" alt="...">
+    </div>
+  </div>
+  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+<br>
+
+
 <!--Tarjetas juegos-->
 <div class="card-deck">
     <div class="card">

@@ -85,7 +85,7 @@ echo "<div id='disponible'>" . $usuario['fichas'] . "</div>";
 
 <?php endif; ?>
 
-		<div id="contenedor">
+		<div id="contenedor" style="background-image:../web/img/imagenesTragaperras/vini.jpg">
 			
 			<img id="caballo" src="../web/img/imagenesTragaperras/caballo.jpg"/>
 
@@ -104,7 +104,7 @@ echo "<div id='disponible'>" . $usuario['fichas'] . "</div>";
 			<div id="divApuesta">
 				<div id="apuesta">
 					<P>TU APUESTA</P>
-					<input class="fichas" type="text" min="0" max="20" value="0"> 
+					<input class="fichas" type="number" min="0" max="20" value="0"> 
 					
 				</div>
 

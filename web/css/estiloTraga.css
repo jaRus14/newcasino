@@ -2,14 +2,14 @@
 body{
 	margin: 0px;
 	text-align: center;
-	
-	
 }
 
 #contenedor{
 	
 	width: 50%;
 	height:670px;
+	//background-image: url("img/imagenesTragaperras/vini.jpg");
+	background-size: 100%;
 	background-color: black;
 	padding-top: 20px;
 	padding-bottom: 20px;
@@ -23,11 +23,13 @@ body{
 #disponible{
 	border:1px solid black;
 	width: 25%;
-	background-color: blue;
-	color:white;
+	background-color:Silver;
+	color:black;
 	text-align: center;
 	float:left;
 	padding: 10px;
+	font-size: 40px;
+
 	
 }
 
@@ -48,7 +50,7 @@ section#mensaje{
 
 section#cajas{
 
-	background-color: yellow;
+	background-color: silver;
 	margin-top: 15px;
 	
 }
